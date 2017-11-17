@@ -8,7 +8,11 @@ import {
     MatSidenavModule,
     MatCardModule,
     MatChipsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatProgressBarModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatInputModule
     
  } from '@angular/material';
 
@@ -20,7 +24,12 @@ import {
         MatSidenavModule,
         MatCardModule,
         MatChipsModule,
-        MatMenuModule
+        MatMenuModule,
+        MatProgressBarModule,
+        MatCheckboxModule,
+        MatFormFieldModule,
+        MatInputModule
+        
     ],
     exports:[
         MatButtonModule,
@@ -29,7 +38,11 @@ import {
         MatSidenavModule,
         MatCardModule,
         MatChipsModule,
-        MatMenuModule
+        MatMenuModule,
+        MatProgressBarModule,
+        MatCheckboxModule,
+        MatFormFieldModule,
+        MatInputModule
     ]
 })
 

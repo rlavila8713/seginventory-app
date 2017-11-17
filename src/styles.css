@@ -4,6 +4,14 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 body {
-    padding: 2em 23em;
-    background:lightgray;
+    padding: 0.2em 0.2em;
+    background:rgb(255, 255, 255);
 }
+
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }

@@ -20,7 +20,6 @@ const routes: Routes = [
         component: LoginComponent,
         //canActivate: [IsNotLoggedGuard]
       },
-
       {
         path: 'registro',
         component: RegistroComponent,

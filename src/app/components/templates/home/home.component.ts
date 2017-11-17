@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('entro al home template');
   }
 
 }
