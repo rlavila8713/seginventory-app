@@ -6,16 +6,18 @@ import { LoginComponent } from './login/login.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { RegistroComponent } from './registro/registro.component';
 import { RegistroCompletadoComponent } from './registro-completado/registro-completado.component';
-import { HomeComponent } from '../templates/home/home.component';
 import { MaterialModule } from '../../material.module';
+import { TemplatesModule } from '../templates/templates.module'
+
 
 
 @NgModule({
   imports: [
     CommonModule,
     InvitadoRoutingModule,
-    MaterialModule
+    MaterialModule,
+    TemplatesModule
   ],
-  declarations: [LoginComponent, InicioComponent, RegistroComponent, RegistroCompletadoComponent, HomeComponent]
+  declarations: [LoginComponent, InicioComponent, RegistroComponent, RegistroCompletadoComponent]
 })
 export class InvitadoModule { }
